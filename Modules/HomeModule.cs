@@ -2,7 +2,7 @@ using Nancy;
 using System;
 using System.Collections.Generic;
 
-namespace RepeatCounter
+namespace RepeatCounter.Objects
 {
   public class HomeModule : NancyModule
   {
@@ -15,7 +15,7 @@ namespace RepeatCounter
         RepeatCounter newCount = new RepeatCounter();
         var NumberOfWords = newCount.CountRepeats(Request.Form["sentence"],Request.Form["word"]);
         return View["results.cshtml", NumberOfWords];
-      }
+      };
     }
   }
 }
