@@ -15,5 +15,13 @@ namespace RepeatCounter.Objects
       int result = testCounter.CountRepeats("dog","dog");
       Assert.Equal(counterResult, result);
     }
+    [Fact]
+    public void CountRepeats_Dogdog()
+    {
+      int counterResult = 1;
+      RepeatCounter testCounter = new RepeatCounter();
+      int result = testCounter.CountRepeats("Dog","dog");
+      Assert.Equal(counterResult, result);
+    }
   }
 }
