@@ -18,6 +18,14 @@ _This application allows the user to see how many times a word appears in a sent
 * _Example Input: dogs_
 * _Example Output: the word dogs occurs 1 time._
 
+#### _User inputs a single word into input field labeled "word to see how many times it occurs"_
+* _Example Input: Dogs_
+* _Example Output: the word dogs occurs 1 time._
+
+#### _User inputs a single word into input field labeled "word to see how many times it occurs"_
+* _Example Input: Dogs!_
+* _Example Output: the word dogs occurs 1 time._
+
 ## Setup/Installation Requirements
 
 * _Internet_
